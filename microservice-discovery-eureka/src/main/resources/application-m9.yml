@@ -1,0 +1,19 @@
+#>Finchley.M9的配置
+##而且只要添加了Spring Security Starter依赖，
+#spring.security.basic.enabled默认就是true，改成false也没用。
+spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      name: user
+      password: password123
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+
