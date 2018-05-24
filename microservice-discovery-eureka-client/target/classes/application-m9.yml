@@ -3,15 +3,12 @@
 #spring.security.basic.enabled默认就是true，改成false也没用。
 spring:
   application:
-    name: eureka-server
+    name: eureka-client
   security:
     basic:
-      enabled: true
-    user:
-      name: user
-      password: password123
+      enabled: false
 server:
-  port: 8761
+  port: 8760
 eureka:
   client:
     register-with-eureka: false

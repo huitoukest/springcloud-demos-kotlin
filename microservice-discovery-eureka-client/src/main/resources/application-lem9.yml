@@ -1,7 +1,7 @@
 #在M9之前的的配置
 spring:
   application:
-    name: eureka-server
+    name: eureka-client
 security:
   basic:
     enabled: true

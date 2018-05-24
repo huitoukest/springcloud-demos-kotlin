@@ -13,7 +13,7 @@
     </parent>
 
 
-    <artifactId>microservice-discovery-eureka</artifactId>
+    <artifactId>microservice-discovery-eureka-client</artifactId>
     <packaging>jar</packaging>
 
     <properties>
