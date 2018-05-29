@@ -1,0 +1,14 @@
+#>Finchley.M9的配置
+spring:
+  application:
+    name:
+      eureka-consumer
+server:
+  port:
+    6760
+eureka:
+  client:
+    #register-with-eureka: false
+    #fetch-registry: false
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8760/eureka

@@ -1,0 +1,10 @@
+#>Finchley.M9的配置
+spring:
+  application:
+    name: consul-client
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+server:
+  port: 8761

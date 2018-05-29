@@ -9,7 +9,7 @@ security:
     name: user
     password: password123
 server:
-  port: 8761
+  port: 6760
 eureka:
   client:
     register-with-eureka: false

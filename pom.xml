@@ -10,8 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>microservice-discovery-consul</module>
         <module>microservice-discovery-eureka</module>
         <module>microservice-discovery-eureka-client</module>
+        <module>microservice-eureka-consumer</module>
     </modules>
 
     <properties>
